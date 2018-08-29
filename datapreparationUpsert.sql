@@ -3,7 +3,8 @@
 drop table T_MARKET_ANALYSIS;
 drop table "temp_table";
 truncate table "temp_table";
-create column  table "T_MARKET_ANALYSIS" ( "ID" integer , "PH3" nvarchar(25), "Net" double,"Net Predict" double,"LOW80" DOUBLE, "HI80" DOUBLE, "LOW95" DOUBLE, "HI95" DOUBLE ) ; 
+create column  table "T_MARKET_ANALYSIS" ( "ID" integer , "PH3" nvarchar(25), "Net" double,"Net Predict" double,"LOW80" DOUBLE, "HI80" DOUBLE, "LOW95" DOUBLE, "HI95" DOUBLE,
+                                            primary key (ID,PH3) ) ; 
   
 create column  table "temp_table" ( "ID" integer , "PH3" nvarchar(25), "Net" double); 
   
