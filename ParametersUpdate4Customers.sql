@@ -1,5 +1,5 @@
 
--- runtime
+-- runtimetest
 truncate TABLE "PARAMS";
 
 INSERT INTO "PARAMS" VALUES ('THREAD_NUMBER', 2, null, null);
