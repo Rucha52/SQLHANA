@@ -26,7 +26,7 @@ do begin
   t_params."INTARGS"[1] = 2;
   t_params."DOUBLEARGS"[1]= null;
   t_params."STRINGARGS"[1] = null; 
-l
+  
   t_params."NAME"[2] = 'METHOD';
   t_params."INTARGS"[2] = 1;
   t_params."DOUBLEARGS"[2]= null;
